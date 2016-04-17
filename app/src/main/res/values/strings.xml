@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bump Up</string>
+
+
+    <string name="email_label">Email:</string>
+    <string name="email">your email</string>
+    <string name="password_label">Password:</string>
+    <string name="password">your password</string>
+
+    <string name="login">Login</string>
+
+    <string name="bump_title">Bump to Start</string>
+    <string name="bump_1">Step Counter</string>
+    <string name="bump_2">Calories Burned</string>
+    <string name="bump_3">Distance Traveled</string>
+
+    <string name="steps">Steps</string>
+    <string name="time">Timer</string>
+    <string name="calories">Calories</string>
+
+    <string name="zero">0</string>
+    <string name="zero_timer">00:00</string>
+
+</resources>

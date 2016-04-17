@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/mdislam/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.2.2/3c8f6018eaa72d43b261181e801e6f8676c16ef6/jackson-databind-2.2.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
+        <dex dex="/Users/mdislam/Desktop/BumpUp/app/build/intermediates/pre-dexed/debug/jackson-databind-2.2.2_822e912c26600b3f330b9ac6159c4655f46bb023.jar" />
+    </item>
+    <item
+        jar="/Users/mdislam/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-jvm/2.5.2/91731b8f5868a3e8a8a773f29b8d06b5c358f5bb/firebase-client-jvm-2.5.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="91731b8f5868a3e8a8a773f29b8d06b5c358f5bb">
+        <dex dex="/Users/mdislam/Desktop/BumpUp/app/build/intermediates/pre-dexed/debug/firebase-client-jvm-2.5.2_001d7dd45ec264a57379db0d7f3354ad19cc1d52.jar" />
+    </item>
+    <item
+        jar="/Users/mdislam/.gradle/caches/modules-2/files-2.1/com.firebase/tubesock/0.0.12/6ec0bbd3e161a73ed672284b587fd32309a86d7a/tubesock-0.0.12.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="6ec0bbd3e161a73ed672284b587fd32309a86d7a">
+        <dex dex="/Users/mdislam/Desktop/BumpUp/app/build/intermediates/pre-dexed/debug/tubesock-0.0.12_dbd0fd1b97939b713ade2b802970ee28e8782c93.jar" />
+    </item>
+    <item
+        jar="/Users/mdislam/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.2/d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b/jackson-core-2.2.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
+        <dex dex="/Users/mdislam/Desktop/BumpUp/app/build/intermediates/pre-dexed/debug/jackson-core-2.2.2_70cfe3b62769c0282eb12f2a1afb2c50728c3372.jar" />
+    </item>
+    <item
+        jar="/Users/mdislam/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-android/2.5.2/f19f10d6276aa0b380e2d05d2ab3272d693a5433/firebase-client-android-2.5.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f19f10d6276aa0b380e2d05d2ab3272d693a5433">
+        <dex dex="/Users/mdislam/Desktop/BumpUp/app/build/intermediates/pre-dexed/debug/firebase-client-android-2.5.2_ca2ba5f301f73344468bf38eff17cae81cf03998.jar" />
+    </item>
+    <item
+        jar="/Users/mdislam/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.2.2/285cb9c666f0f0f3dd8a1be04e1f457eb7b15113/jackson-annotations-2.2.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
+        <dex dex="/Users/mdislam/Desktop/BumpUp/app/build/intermediates/pre-dexed/debug/jackson-annotations-2.2.2_1a21b60eefe0d87f5df590e11400df26d3eb02be.jar" />
+    </item>
+
+</items>
