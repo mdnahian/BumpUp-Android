@@ -19,8 +19,20 @@
     <string name="steps">Steps</string>
     <string name="time">Timer</string>
     <string name="calories">Calories</string>
+    <string name="distance">Distance</string>
 
     <string name="zero">0</string>
     <string name="zero_timer">00:00</string>
+
+    <string name="tap">Tap to Initiate</string>
+
+    <string name="tap2">Tap to Receive</string>
+
+
+    <string name="ready">Start</string>
+
+    <string name="congrats">--- is the winner!</string>
+
+    <string name="compete">Compete Again</string>
 
 </resources>

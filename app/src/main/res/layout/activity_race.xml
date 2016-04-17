@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/steps"
-            android:textSize="64sp"
+            android:textSize="48sp"
             android:gravity="center"/>
 
         <TextView
@@ -32,7 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/time"
-            android:textSize="64sp"
+            android:textSize="48sp"
             android:gravity="center"
             android:layout_marginTop="16dp"/>
 
@@ -47,10 +47,26 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/calories"
-            android:textSize="64sp"
+            android:text="@string/distance"
+            android:textSize="48sp"
             android:gravity="center"
             android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/distance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="56sp"
+            android:text="@string/zero"
+            android:gravity="center"/>
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calories"
+        android:textSize="48sp"
+        android:gravity="center"
+        android:layout_marginTop="16dp"/>
 
         <TextView
             android:id="@+id/calories"

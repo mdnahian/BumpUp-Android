@@ -43,6 +43,33 @@
             android:gravity="center"/>
 
 
+        <TextView
+            android:id="@+id/tap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tap"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="#333333"
+            android:padding="15dp"
+            android:layout_marginTop="16dp"
+            android:layout_margin="16dp"/>
+
+
+        <TextView
+            android:id="@+id/tap2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tap2"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="#333333"
+            android:padding="15dp"
+            android:layout_margin="16dp"/>
+
+
+
+
     </LinearLayout>
 
 

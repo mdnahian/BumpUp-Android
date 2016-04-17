@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -17,6 +18,7 @@ import com.firebase.client.FirebaseError;
  * Created by mdislam on 4/17/16.
  */
 public class LoginActivity extends Activity {
+
 
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
@@ -46,15 +48,16 @@ public class LoginActivity extends Activity {
                             .setIcon(R.drawable.logo)
                             .show();
                 } else {
-                    Firebase firebase = new Firebase("https://bumpup.firebaseio.com/");
+                    final Firebase firebase = new Firebase("https://bumpup.firebaseio.com/");
 
                     firebase.authWithPassword(email.getText().toString(), password.getText().toString(), new Firebase.AuthResultHandler() {
                         @Override
                         public void onAuthenticated(AuthData authData) {
                             SavedSession savedSession = new SavedSession();
                             savedSession.setEmail(email.getText().toString());
+                            createSavedSession(savedSession);
 
-                            Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                            Intent intent = new Intent(LoginActivity.this, RaceActivity.class);
                             intent.putExtra("SavedSession", savedSession);
                             startActivity(intent);
                             finish();
@@ -82,5 +85,20 @@ public class LoginActivity extends Activity {
 
 
     }
+
+
+
+
+    public void createSavedSession(SavedSession savedSession){
+        SharedPreferences sp = getSharedPreferences("SavedSession", 0);
+        SharedPreferences.Editor ed = sp.edit();
+        ed.putString("fname", savedSession.getFname());
+        ed.putString("lname", savedSession.getLname());
+        ed.putString("email", savedSession.getEmail());
+        ed.putString("capital_one_id", savedSession.getCapital_one_id());
+        ed.apply();
+    }
+
+
 
 }
